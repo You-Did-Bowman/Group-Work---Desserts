@@ -6,17 +6,17 @@
 
 body {
   font-family: sans-serif;
+  background-color: #f5e8e3;
 }
 
-.container {}
+
 
 /* PRODUCT PAGE */
 
 h1 {
   width: 100%;
-  text-align: left;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .product__wrapper {
@@ -146,20 +146,18 @@ h1 {
 /* SHOPPING CART */
 .cart__box {
   display: flex;
-  background-color: #f5e8e3;
+  background-color: white;
   width: 300px;
   height: 550px;
-  margin: 40px;
+  margin: 0 auto;
   justify-content: center;
   border-radius: 10px;
+  box-shadow: 10px;
 }
 
 header {
   width: 306px;
-  background-color: white;
   justify-content: center;
-  border-radius: 10px;
-  box-shadow: 10px;
   margin: 10px;
 }
 
@@ -170,12 +168,14 @@ li {
 
 button {
   display: flex;
+
   justify-content: center;
   width: 200px;
   border-radius: 6px;
   background-color: orangered;
   border: none;
   margin: 30px;
+  padding: .5rem 2rem;
 }
 
 .cart1 {
@@ -201,12 +201,10 @@ button {
 /* MEDIA REDQUIERIE */
 
 @media (min-width: 984px) {
-  body {
-    background: #f1eeeb;
-  }
+
   .container {
     display: grid;
-    justify-content:start;
+    justify-content: start;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 200px repeat(2 1fr);
     grid-column-gap: 0px;
@@ -221,6 +219,9 @@ button {
       grid-row: 2/ 4;
     }
     .cart__box {
+        position: relative;
+        top: 2rem;
+        right: 2rem;
       grid-column: 5 / 5;
       grid-row: 1/3;
     }
