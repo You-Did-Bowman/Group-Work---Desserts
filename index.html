@@ -1,56 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dessert</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    
-    <header>
-        <h1>Your Cart <i class="fa-solid fa-cart-shopping"></i></h1>
-       
-            
-            <main>
-            <div class="Cart">
-              
-                    
-                
-                <ul>
-                    <li>classic tiramisu</li>
-                       <p>1x  @ $5.50 $5.50 <i class="fa-regular fa-circle-xmark"></i></p>
-                    <hr>
-                <br>
-                    <li>vanilla bean creme brulee</li>
-                    <p>4x  @ $7.00 $28.00 <i class="fa-regular fa-circle-xmark"></i></p>
-                    <hr>
-                    <br>
-                    <li>vanilla panna cotta</li>
-                    <p>2x  @ $6.50 $13.00 <i class="fa-regular fa-circle-xmark"></i></p>
-                    <hr>
-                <br>
-                     <li>Order Total 
-                        <br>
-                        <p class="euro"> &euro;46.50</p></li> 
-                </ul>
-                 
+
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- FONTAWSOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Desserts</h1>
+      <!-- PRODUCT PAGE -->
+      <div class="product">
+        <div class="product__wrapper">
+          <div class="product__box product__box_1">
+            <img src="./assets/dessert-1.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
             </div>
-            </main>
-            
-            <br>
-            <p class="cart1"> <i class="fa-solid fa-tree fa-sm" style="color: #63E6BE;"></i>this is a carbon-neutral delivery</p>
-           
-            <br>
-            <button>Confirm Order</button>
-        
-            <br>
-    </header>
+            <p class="product__category">Waffle</p>
+            <h3 class="product__title">Waffle with Berries</h3>
+            <p class="product__price">$6.50</p>
+          </div>
 
-   
+          <div class="product__box product__box_2">
+            <img src="./assets/dessert-2.png" alt="" />
+            <div class="product__cart_added">
+              <i class="fa-solid fa-circle-plus"></i>
+              <p>2</p>
+              <i class="fa-solid fa-circle-minus"></i>
+            </div>
+            <p class="product__category">Crème Brûlée</p>
+            <h3 class="product__title">Vanilla Bean Crème Brûlée</h3>
+            <p class="product__price">$7.00</p>
+          </div>
 
+          <div class="product__box product__box_3">
+            <img src="./assets/dessert-3.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
+            </div>
+            <p class="product__category">Macaron</p>
+            <h3 class="product__title">Macaron Mix of Five</h3>
+            <p class="product__price">$8.00</p>
+          </div>
 
+          <div class="product__box product__box_4">
+            <img src="./assets/dessert-4.png" alt="" />
+            <div class="product__cart_added">
+              <i class="fa-solid fa-circle-plus"></i>
+              <p>2</p>
+              <i class="fa-solid fa-circle-minus"></i>
+            </div>
+            <p class="product__category">Tiramisu</p>
+            <h3 class="product__title">Classic Tiramisu</h3>
+            <p class="product__price">$5.50</p>
+          </div>
 
-</body>
+          <div class="product__box product__box_5">
+            <img src="./assets/dessert-5.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
+            </div>
+            <p class="product__category">Baklava</p>
+            <h3 class="product__title">Pistachio Baklave</h3>
+            <p class="product__price">$4.00</p>
+          </div>
+
+          <div class="product__box product__box_6">
+            <img src="./assets/dessert-6.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
+            </div>
+            <p class="product__category">Pie</p>
+            <h3 class="product__title">Lemon Meringue Pie</h3>
+            <p class="product__price">$5.00</p>
+          </div>
+
+          <div class="product__box product__box_7">
+            <img src="./assets/dessert-7.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
+            </div>
+            <p class="product__category">Cake</p>
+            <h3 class="product__title">Red Velvet Cake</h3>
+            <p class="product__price">$4.50</p>
+          </div>
+
+          <div class="product__box product__box_8">
+            <img src="./assets/dessert-8.png" alt="" />
+            <div class="product__cart">
+              <i class="fa-solid fa-cart-plus"></i>
+              <p>Add to Cart</p>
+            </div>
+            <p class="product__category">Brownie</p>
+            <h3 class="product__title">Salted Caramel Brownie</h3>
+            <p class="product__price">$5.50</p>
+          </div>
+
+          <div class="product__box product__box_9">
+            <img src="./assets/dessert-9.png" alt="" />
+            <div class="product__cart_added">
+              <i class="fa-solid fa-circle-plus"></i>
+              <p>2</p>
+              <i class="fa-solid fa-circle-minus"></i>
+            </div>
+            <p class="product__category">Panna Cotta</p>
+            <h3 class="product__title">Vanilla Panna Cotta</h3>
+            <p class="product__price">$6.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHOPPING CART -->
+      <div class="cart__box">
+        <header>
+          <h1>Your Cart <i class="fa-solid fa-cart-shopping"></i></h1>
+          <main>
+            <div class="Cart">
+              <ul>
+                <li>classic tiramisu</li>
+                <p class="cart__p">
+                  1x @ $5.50 $5.50 <i class="fa-regular fa-circle-xmark"></i>
+                </p>
+                <hr />
+                <br />
+                <li>vanilla bean creme brulee</li>
+                <p class="cart__p">
+                  4x @ $7.00 $28.00 <i class="fa-regular fa-circle-xmark"></i>
+                </p>
+                <hr />
+                <br />
+                <li>vanilla panna cotta</li>
+                <p class="cart__p">
+                  2x @ $6.50 $13.00 <i class="fa-regular fa-circle-xmark"></i>
+                </p>
+                <hr />
+                <br />
+                <li>
+                  Order Total
+                  <br />
+                  <p class="euro">&euro;46.50</p>
+                </li>
+              </ul>
+            </div>
+          </main>
+
+          <br />
+          <p class="cart1">
+            <i class="fa-solid fa-tree fa-sm" style="color: #63e6be"></i>this is
+            a carbon-neutral delivery
+          </p>
+
+          <br />
+          <button>Confirm Order</button>
+
+          <br />
+        </header>
+      </div>
+    </div>
+  </body>
 </html>
