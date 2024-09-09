@@ -12,7 +12,7 @@ h1 {
   justify-self: start;
 
   padding-top: 1rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 .product__wrapper {
@@ -89,4 +89,10 @@ h1 {
   .product__box_2 img, .product__box_4 img, .product__box_9 img {
     border: 2px solid #c83c0e;
   }
+}
+
+@media (min-width: 800px) {
+    body {
+        background: #f1eeeb;
+    }
 }
