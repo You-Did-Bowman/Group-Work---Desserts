@@ -9,8 +9,6 @@ body {
   background-color: #f5e8e3;
 }
 
-
-
 /* PRODUCT PAGE */
 
 h1 {
@@ -175,7 +173,7 @@ button {
   background-color: orangered;
   border: none;
   margin: 30px;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
 }
 
 .cart1 {
@@ -201,14 +199,11 @@ button {
 /* MEDIA REDQUIERIE */
 
 @media (min-width: 984px) {
-
   .container {
     display: grid;
     justify-content: start;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 200px repeat(2 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
 
     h1 {
       margin-left: 4.5rem;
@@ -219,9 +214,9 @@ button {
       grid-row: 2/ 4;
     }
     .cart__box {
-        position: relative;
-        top: 2rem;
-        right: 2rem;
+      position: relative;
+      top: 2rem;
+      right: 2rem;
       grid-column: 5 / 5;
       grid-row: 1/3;
     }
